@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,20 +8,295 @@
     <meta name="description" content="Tecnología inteligente para experiencias digitales de huéspedes. Transformamos la experiencia del entretenimiento en los hoteles." />
     <meta name="author" content="Lovable" />
 
-    <meta property="og:title" content="presentation-page-wizard" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:title" content="Hospitality SmartRoom" />
+    <meta property="og:description" content="Experiencias digitales para huéspedes de hotel" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
-
   <body>
-    <div id="root"></div>
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <div class="logo">
+            <h1>SmartRoom</h1>
+          </div>
+          <nav class="nav-links">
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#solucion">Solución</a></li>
+              <li><a href="#caracteristicas">Características</a></li>
+              <li><a href="#demo">Demo</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+          <button class="menu-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Experiencias digitales para huéspedes de hotel</h1>
+            <p>Transforme la experiencia de sus huéspedes con nuestra plataforma de entretenimiento inteligente. Ofrezca streaming, información local y servicios del hotel en una sola interfaz.</p>
+            <div class="hero-buttons">
+              <a href="#contacto" class="btn btn-primary">Solicitar Demo</a>
+              <a href="#solucion" class="btn btn-secondary">Conoce más</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="/lovable-uploads/73b67897-ba06-4518-87e8-e91d6e3c1b18.png" alt="SmartRoom Dashboard" class="main-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucion" class="solution">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nuestra Solución</h2>
+          <p>SmartRoom transforma cualquier televisor del hotel en un centro de entretenimiento completo</p>
+        </div>
+        <div class="solution-grid">
+          <div class="solution-item">
+            <div class="solution-icon">
+              <img src="/lovable-uploads/456212ea-4b2d-455c-9ff3-ab5390f59097.png" alt="Ícono de Streaming" class="icon">
+            </div>
+            <h3>Streaming Integrado</h3>
+            <p>Acceso directo a Netflix, Disney+, Prime Video y más desde la TV del hotel</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">
+              <img src="/lovable-uploads/5a32f103-3011-4f7b-9302-e0ec91eafd7a.png" alt="Ícono de Servicios" class="icon">
+            </div>
+            <h3>Servicios del Hotel</h3>
+            <p>Reservas de restaurante, spa y amenidades disponibles con un clic</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">
+              <img src="/lovable-uploads/456212ea-4b2d-455c-9ff3-ab5390f59097.png" alt="Ícono de Información" class="icon">
+            </div>
+            <h3>Información Local</h3>
+            <p>Guías turísticas, clima y recomendaciones personalizadas para el huésped</p>
+          </div>
+          <div class="solution-item">
+            <div class="solution-icon">
+              <img src="/lovable-uploads/5a32f103-3011-4f7b-9302-e0ec91eafd7a.png" alt="Ícono de Analítica" class="icon">
+            </div>
+            <h3>Analítica Avanzada</h3>
+            <p>Datos sobre uso y preferencias para mejorar la experiencia del huésped</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="caracteristicas" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Características Principales</h2>
+          <p>Nuestra plataforma ofrece una experiencia completa para los huéspedes del hotel</p>
+        </div>
+        <div class="features-content">
+          <div class="features-image">
+            <img src="/lovable-uploads/1f9dcd02-d4dd-4a5d-9bc4-f23ada53d992.png" alt="SmartRoom Interface" class="rounded-image">
+          </div>
+          <div class="features-list">
+            <ul>
+              <li>
+                <span class="check-icon"></span>
+                <span>Interfaz personalizable y marca blanca para hoteles</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Integración con servicios de streaming populares</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Información en tiempo real sobre vuelos y clima</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Promoción de servicios y amenidades del hotel</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Menú digital del restaurante con pedidos a la habitación</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Guía turística local con recomendaciones personalizadas</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Soporte multilingüe para huéspedes internacionales</span>
+              </li>
+              <li>
+                <span class="check-icon"></span>
+                <span>Dashboard para administración y análisis de uso</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="demo">
+      <div class="container">
+        <div class="section-header">
+          <h2>Vea SmartRoom en acción</h2>
+          <p>Descubra cómo nuestra solución mejora la experiencia del huésped</p>
+        </div>
+        <div class="demo-content">
+          <div class="video-container">
+            <div class="video-placeholder">
+              <button class="play-button">▶</button>
+              <p>Ver Demo</p>
+            </div>
+          </div>
+          <div class="demo-text">
+            <h3>Transforme la experiencia de sus huéspedes</h3>
+            <p>SmartRoom convierte cualquier televisor en un centro de entretenimiento personalizado que incrementa la satisfacción del cliente y genera ingresos adicionales.</p>
+            <ul class="demo-benefits">
+              <li>Aumenta la satisfacción del huésped</li>
+              <li>Incrementa el consumo de servicios internos</li>
+              <li>Diferencia su propiedad de la competencia</li>
+              <li>Facilita la recolección de datos valiosos</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary">Agendar Demostración</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>¿Listo para transformar la experiencia de sus huéspedes?</h2>
+          <p>Complete el formulario y un especialista se pondrá en contacto con usted</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-form">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="hotel">Nombre del Hotel</label>
+                <input type="text" id="hotel" name="hotel" required>
+              </div>
+              <div class="form-group">
+                <label for="rooms">Número de Habitaciones</label>
+                <input type="number" id="rooms" name="rooms" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Enviar Solicitud</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="info-card">
+              <h3>Información de Contacto</h3>
+              <p><strong>Email:</strong> info@smartroom.com</p>
+              <p><strong>Teléfono:</strong> +1 (555) 123-4567</p>
+              <p><strong>Dirección:</strong> Av. Tecnológica 1234, Ciudad Tech</p>
+              <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>SmartRoom</h2>
+            <p>Tecnología inteligente para experiencias digitales de huéspedes</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h3>Explorar</h3>
+              <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#solucion">Solución</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Términos de Uso</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Hospitality SmartRoom. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Simple JavaScript for mobile menu toggle
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+          menuToggle.classList.toggle('open');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const links = document.querySelectorAll('.nav-links a');
+        links.forEach(link => {
+          link.addEventListener('click', function() {
+            navLinks.classList.remove('active');
+            menuToggle.classList.remove('open');
+          });
+        });
+        
+        // Simple form submission
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+          contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por su interés! Un representante se pondrá en contacto con usted pronto.');
+            contactForm.reset();
+          });
+        }
+      });
+    </script>
+    
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
